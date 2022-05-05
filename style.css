@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins',sans-serif;
+   background-color: #112B3C;
+}
+h1{
+    padding:3% 9%;
+    text-decoration: underline;
+    color: #E8F9FD;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin:0px auto 0px auto;
+    align-items: center;
+}
+p{
+    font-weight: 500;
+    color: #79DAE8;
+}
+h2{
+    font-size: 7rem;
+    padding:3% 8%;
+    color: white;
+}
+button{
+    padding:2% 5%;
+    font-size: 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color:#E9EFC0;
+}
+button:hover{
+    box-shadow: 2px 2px 3px 4px #005555;
+}
